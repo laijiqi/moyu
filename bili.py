@@ -10,7 +10,7 @@ yesterday = time.time()-60*60*24*2  # 1天前
 obj = {
     "msgtype": "text", 
     "text": {
-        "content": 'B站:'+time.strftime('%Y-%m-%d',time.localtime(time.time())), 
+        "content": '测试B站:'+time.strftime('%Y-%m-%d',time.localtime(time.time())), 
     }
 }
 requests.post(url,
